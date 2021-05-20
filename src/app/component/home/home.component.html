@@ -1,125 +1,282 @@
 <!-- --- BARRA DE NAVEGACION --- -->
+
 <div id="carousel-slider" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../../assets/img/slider1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="title-slider-01">
+          <h2 id="title-slider-01" data-text="Tokio">Tokio</h2>
+        </div>
+        <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
+          data-bs-target="#modal-slider-01">Saber más...</button>
+      </div>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="../../../assets/img/slider1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Tokio</h2>
-                    <p>Complete website layout</p>
-                    <button type="button" class="btn btn-outline-light btn-lg">Saber más...</button>
 
-                </div>
-
-            </div>
+    <div class="carousel-item">
+      <img src="../../../assets/img/slider2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="title-slider-02">
+            <h2 id="title-slider-02" data-text="Navagio">Navagio</h2>
+          </div>
+          <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
+            data-bs-target="#modal-slider-02">Saber más...</button>
         </div>
-        <div class="carousel-item">
-            <img src="../../../assets/img/slider2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="../../../assets/img/slider3.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+
+    <div class="carousel-item">
+      <img src="../../../assets/img/slider3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="title-slider-03">
+            <h2 id="title-slider-03" data-text="Berlin">Berlin</h2>
+          </div>
+          <div class="container-btn">
+            <button type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
+              data-bs-target="#modal-slider-03">Saber más...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+
 <!-- --- FIN DE BARRA DE NAVEGACION --- -->
+
+<!-- --- MODAL SLIDER 01 ---  -->
+<div class="modal fade" id="modal-slider-01" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> <!-- --- BOTON X PARA CERRAR ---  -->
+      <div class="card">
+        <img src="../../../assets/img/slider1.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Tokio - Japón:</h5>
+          <p class="card-text">Con una población que supera los 40 millones de habitantes, se subdivide en 23
+            barrios
+            (区 -ku); 26 ciudades (市 -shi); un distrito (郡 -gun) subdividido en tres pueblos (町 -chō o -machi) y
+            una
+            villa (村 -son o -mura); y cuatro subprefecturas (支庁 -shichō) subdivididas en dos pueblos y siete
+            villas,
+            que representan a varias pequeñas islas al sur de Honshu que se extienden más allá de 1800 km de
+            Shinjuku,
+            capital de la metrópoli y sede de la gobernación. El centro de Tokio, con sus 23 barrios, ocupa un
+            tercio
+            de la metrópoli, con una población cercana a los 13,23 millones de habitantes; esta área es lo que se
+            conoce internacionalmente como la ciudad de Tokio. En su área metropolitana viven más de 40 millones
+            de
+            habitantes, lo que la convierte en la segunda mayor aglomeración urbana del mundo detrás de la de
+            Guangzhou, en China.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+          <!-- --- data-bs-dismiss="modal" HACE QUE CON EL BOTON SE QUITE EL MODAL --- -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FIN DE MODAL SLIDER 01 -->
+<!-- INICIO MODAL SLIDER 02-->
+<div class="modal fade" id="modal-slider-02" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="card">
+        <img src="../../../assets/img/slider2.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Navagio - Grecia:</h5>
+          <p class="card-text">
+            Cuando soñamos con escaparnos a un rincón paradisíaco, de esos en los que perderse y alejarse del
+            mundanal
+            ruido, probablemente imaginamos un lugar muy similar a esta playa de la isla griega de Zante. La playa
+            de
+            Navagio (playa del Naufragio) es la más famosa de la isla y una de las más destacadas de toda Grecia.
+            Debe
+            su nombre a la presencia de un barco encallado en la arena que llegó hasta allí tras sufrir un
+            naufragio
+            en la década de los ochenta del siglo pasado. Nadie ha pensado, ni por asomo, retirar la nave, porque
+            se
+            ha convertido en uno de los alicientes de visitar este lugar. </p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FIN DE MODAL SLIDER 02-->
+
+<!-- INICIO MODAL 03-->
+
+<div class="modal fade" id="modal-slider-03" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="card">
+        <img src="../../../assets/img/slider3.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Berlín - Alemania:</h5>
+          <p class="card-text">
+            Berlín, oficialmente la Ciudad-Estado de Berlín (en alemán, Berlin, pronunciado /bɛɐ̯ˈliːn/ (
+            escuchar))
+            es la capital de Alemania y uno de los dieciséis estados federados alemanes. Se localiza al noreste de
+            Alemania. Por la ciudad fluyen los ríos Spree, Havel, Panke, Dahme y Wuhle. Con una población de 3,77
+            millones de habitantes, Berlín es la ciudad más poblada del país y de Europa Central, así como la
+            primera
+            ciudad en población y la cuarta aglomeración urbana entre los países de la Unión Europea, según datos
+            de
+            Eurostat.
+          </p>
+          <p class="card-text">
+
+            Berlín fue sucesivamente capital del Reino de Prusia (1701-1918), del Reich alemán (1871-1919), de la
+            República de Weimar (1919-1933) y del Tercer Reich (1933-1945). Después de la Segunda Guerra Mundial,
+            la
+            ciudad fue dividida; la parte este de la ciudad se convirtió en la capital de la República Democrática
+            Alemana, mientras que la región oeste de la ciudad se convirtió en un enclave de la República Federal
+            de
+            Alemania en el interior de la Alemania Oriental.
+          </p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FIN DE MODAL 03-->
 <!-- --- JUMBOTRON --- -->
 <div class="container-fluid">
-    <div class="row jumbotron">
-        <h2 class="display-4 col-12 text-center">Hello, world!</h2>
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                been
-                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus
-                PageMaker including versions of Lorem Ipsum </p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <button type="button" class="btn btn-block btn-outline-secondary my-4" data-bs-toggle="modal" href="#exampleModalToggle"> Click aquí
-            </button>
-        </div>
+  <div class="row jumbotron">
+    <h2 class="display-4 col-12 text-center">Hello, world!</h2>
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+      <p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+        and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+        into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+        release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+        Aldus
+        PageMaker including versions of Lorem Ipsum </p>
     </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+      <button type="button" class="btn btn-block btn-outline-secondary my-4" data-bs-toggle="modal"
+        href="#exampleModalToggle"> Click aquí
+      </button>
+    </div>
+  </div>
 </div>
 <!-- --- FIN DE JUMBOTRON --- -->
 
+
+<!-- BORRAR -->
+<div class="button-sl-01">
+  <button type="button" class="btn btn btn-info btn-lg col-6 mx-auto" data-bs-toggle="modal"
+    data-bs-target="#modal-slider-01">Saber más...</button>
+</div>
+
+
+<h4> OTRO BOTON</h4>
+<div class="container-glassmorphism-button">
+  <div class="container-btn">
+    <div class="btn-slider-01">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#modal-slider-01">Saber más... </a>
+    </div>
+  </div>
+</div>
+<!-- BORRAR-->
+
 <!-- --- CREACION DE MODAL 01 --- -->
 
-<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Show a second modal and hide this one with the button below.
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
-        </div>
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+  tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Show a second modal and hide this one with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+          data-bs-dismiss="modal">Open second modal</button>
       </div>
     </div>
   </div>
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Hide this modal and show the first with the button below.
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-        </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+  tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Hide this modal and show the first with the button below.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+          data-bs-dismiss="modal">Back to first</button>
       </div>
     </div>
   </div>
-  <!-- --- FIN DE MODAL 01 --- -->
+</div>
+<!-- --- FIN DE MODAL 01 --- -->
 
 <!-- --- SECCION DE BIENVENIDA --- -->
 <div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h3 class="display-4">Construyendo fácil</h3>
-        </div>
-        <hr class="light w-100">
-        <div class="col-12">
-            remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus
-            PageMaker including versions of Lorem Ipsu
-        </div>
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h3 class="display-4">Construyendo fácil</h3>
     </div>
+    <hr class="light w-100">
+    <div class="col-12">
+      remaining essentially unchanged. It was popularised in the 1960s with the release of
+      Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+      Aldus
+      PageMaker including versions of Lorem Ipsu
+    </div>
+  </div>
 </div>
 <!-- --- FIN DE SECCION DE BIENVENIDA --- -->

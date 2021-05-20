@@ -1,0 +1,49 @@
+
+
+/* --- CREANDO NAVBAR HOMEPAGE --- 
+.title {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: color #252839;
+  }
+  
+  #title {
+    position: relative;
+    font-size: 4vw;
+    color: #252839;
+    -webkit-text-stroke: 0.4vm #383d52;
+
+  }
+  
+  #title::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #f8f9fa;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #f8f9fa;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+  
+  @keyframes animate 
+  {
+      0%{
+          width:0%;
+      }
+      50%{
+          width:50%;
+      }
+      100%{
+          width:100%;
+      }
+      
+  }
+
+  
+  
+--- CERRANDO NAVBAR HOME PAGE---  */
